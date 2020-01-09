@@ -57,9 +57,10 @@ class Landing extends React.Component{
                 <div class = "box center"><button onClick = {this.handleSubmit}>Search</button></div>
                 {submit ? <MakeupApi query = {[makeup, color]}/> : null}
                 {error ? <div class = "error center">{error}</div> : null}
+                <div class = "box"><Footer/></div>
             </div>
         )
     }
 }
 
-export default Landing;
+export default withRouter(Landing);

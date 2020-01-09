@@ -30,7 +30,13 @@ class App extends React.Component{
 
         */
       return (
-        <Landing/>
+        <Router>
+          <Switch>
+              <Route exact path='/' component={Landing}/>
+              <Route exact path='/about' component={About}/>
+              <Route exact path='/contact' component={Contact}/>
+          </Switch>
+        </Router>
       )
   }
 }
