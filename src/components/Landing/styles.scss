@@ -1,0 +1,29 @@
+@import '../../foundation';
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.box{
+ // border: 1px solid pink;
+  margin: 20px;
+}
+  
+.center{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-column{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error{
+  font-size: 2rem;
+  color: $pink;
+}
