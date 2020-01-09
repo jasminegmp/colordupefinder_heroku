@@ -1,13 +1,11 @@
-Simple boilerplate with for single page flask react app, ready to deploy to heroku.
-Built around create-react-app.
+## For code history: 
+https://github.com/jasminegmp/dupefinder
+
+Got initial simple boilerplate from: https://github.com/DZGoldman/flask-react-minimal-boilerplate
 
 ## Setup
-1. clone repo
 
-    - `git clone https://github.com/DZGoldman/flask-react-minimal-boilerplate`
-
-    - `cd flask-react-minimal-boilerplate`
-2. install dependenciess
+install dependenciess
     - `yarn install`
     - `pip install -r requirements.text`
 
@@ -43,8 +41,6 @@ Built around create-react-app.
     Optional: select "Enable Automatic Deploys"
 
 6. Scroll up and click "open app" (at the top right of the page.)
-
-7. Celebrate.
 
 
  
